@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 3</title>
+</head>
+<body>
+<script>
+    let f1 = 1;
+    let f2 = 1;
+    let n = 20;
+    let count = 0;
+    let i;
+    document.write(f1 + "<br>");
+    document.write(f2 + "<br>");
+    for (i = 2; count <= n; i++) {
+        if (i === f1 + f2) {
+            document.write(i + "<br>");
+            f1 = f2;
+            f2 = i;
+            count++;
+        }
+    }
+
+
+</script>
+
+</body>
+</html>
