@@ -8,7 +8,12 @@
 <script>
     let heat;
     do{
-        heat = +prompt(" Nhap vao nhiet do");
+        heat = prompt(" Nhap vao nhiet do");
+        if(heat <20){
+            alert("Tang nhiet do");
+        }else if(heat >100){
+            alert("Giam nhiet do");
+        }
     }while (heat < 20 || heat > 100)
 </script>
 </body>
