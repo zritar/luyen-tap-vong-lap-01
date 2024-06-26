@@ -8,12 +8,11 @@
 <script>
     let f1 = 0;
     let f2 = 1;
-    let n = 20;
     let count = 0;
     let i;
     document.write(f1 + "<br>");
     document.write(f2 + "<br>");
-    for (i = 1; count <= n; i++) {
+    for (i = 1; count < 18; i++) {
         if (i === f1 + f2) {
             document.write(i + "<br>");
             f1 = f2;
@@ -21,6 +20,16 @@
             count++;
         }
     }
+
+    // let f1;
+    // let f2;
+    // let count;
+    // for ( count =0, f =1 , f1 =0, f2 =1;count <20; count ++){
+    //     f= f1 + f2;
+    //     f1 =f2;
+    //     f2 = f;
+    //     document.write(f);
+    // }
 
 
 </script>
